@@ -1,10 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>CI/CD Demo</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+        }
+
+        .container{
+            background:white;
+            width:450px;
+            padding:35px;
+            border-radius:15px;
+            box-shadow:0 4px 15px rgba(0,0,0,0.15);
+            text-align:center;
+        }
+
+        h1{
+            color:#2c3e50;
+            margin-bottom:15px;
+        }
+
+        p{
+            color:#555;
+            margin-bottom:20px;
+        }
+
+        .status{
+            background:#e8f5e9;
+            color:#2e7d32;
+            padding:12px;
+            border-radius:8px;
+            font-weight:bold;
+            margin-bottom:20px;
+        }
+
+        .steps{
+            text-align:left;
+            margin-top:15px;
+        }
+
+        .steps li{
+            margin:10px 0;
+            color:#444;
+        }
+
+        footer{
+            margin-top:20px;
+            color:#777;
+            font-size:14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello CI/CD 🚀</h1>
-    <p>Application deployed successfully.</p>
+
+    <div class="container">
+
+        <h1>🚀 CI/CD Pipeline Demo</h1>
+
+        <p>
+            Automatic Build, Test and Deployment using GitHub Actions.
+        </p>
+
+        <div class="status">
+            ✅ Application Deployed Successfully
+        </div>
+
+        <div class="steps">
+            <h3>📌 Pipeline Flow</h3>
+            <ul>
+                <li>💻 Code Pushed to GitHub</li>
+                <li>🔍 Automated Testing</li>
+                <li>⚙️ Build Process</li>
+                <li>🚀 Deployment Completed</li>
+            </ul>
+        </div>
+
+        <footer>
+            🎯 Full Stack Development Internship Project
+        </footer>
+
+    </div>
+
 </body>
 </html>
